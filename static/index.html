@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Socket.IO chat</title>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/vader/jquery-ui.css">
+  <link rel="stylesheet" href="./fiveInRow.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/static/client.js"></script>
+</head>
+
+<body onload="User.init();">
+  <header id="status" class="ui-widget ui-state-hover ui-corner-all">...Подключаемся к серверу...</header>
+
+  <table id="board-table" class="ui-widget ui-corner-all" height="100%" width="100%"></table>
+  <button id="reload">Новая игра</button>
+
+</body>
+
+</html>

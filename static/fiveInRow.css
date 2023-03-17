@@ -1,0 +1,25 @@
+#board-table {
+    height: 100px;
+    width: 100%;
+    text-align: center; 
+    vertical-align: middle;
+}
+#board-table td {
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1000pt;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+}
+#play_again {
+    display: block;
+    font-size: 20px;
+}
+#status {
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+    width: 100%;
+}
